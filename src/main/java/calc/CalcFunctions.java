@@ -19,11 +19,11 @@ public class CalcFunctions {
 
     public int divide(int x, int y) throws UndefinedMathException {
         int result;
-        if(y == 0) {
-            throw new UndefinedMathException("y darf nicht 0 sein!");
-        } else {
+      //  if(y == 0) {
+    //        throw new UndefinedMathException("y darf nicht 0 sein!");
+  //      } else {
         result = x / y;
-       }
+//       }
         return result;
     }
 
