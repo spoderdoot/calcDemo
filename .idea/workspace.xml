@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59a3bdbc-fe84-46f1-ab83-31345d962ddb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="241">
+              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,6 +66,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Fernando" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -168,7 +173,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543253386818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543253497210" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
@@ -293,7 +298,7 @@
       <workItem from="1543214928840" duration="4231000" />
       <workItem from="1543224332223" duration="2286000" />
       <workItem from="1543226946807" duration="1267000" />
-      <workItem from="1543252375313" duration="970000" />
+      <workItem from="1543252375313" duration="1364000" />
     </task>
     <task id="LOCAL-00001" summary="IntelliJ Artifact Creation Fixed">
       <created>1543227629144</created>
@@ -302,13 +307,17 @@
       <option name="project" value="LOCAL" />
       <updated>1543227629144</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed if blocks to switch case">
+      <created>1543253490345</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543253490345</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalcFunctionsTest_addTest - 2018.11.26 at 08h 10m 28s.xml">
-      <configuration name="CalcFunctionsTest.addTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalcFunctionsTest_addTest - 2018.11.26 at 08h 12m 20s.xml">
       <configuration name="CalcFunctionsTest.addTest" configurationId="JUnit" />
     </history-entry>
@@ -336,9 +345,12 @@
     <history-entry file="CalcFunctionsTest - 2018.11.26 at 11h 13m 06s.xml">
       <configuration name="CalcFunctionsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalcFunctionsTest - 2018.11.26 at 18h 29m 53s.xml">
+      <configuration name="CalcFunctionsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10041000" />
+    <option name="totallyTimeSpent" value="10435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,9 +363,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -368,11 +379,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32475883" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33225107" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33118972" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32583067" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32583067" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3279743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -433,7 +444,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IntelliJ Erster Commit" />
     <MESSAGE value="IntelliJ Artifact Creation Fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="IntelliJ Artifact Creation Fixed" />
+    <MESSAGE value="Changed if blocks to switch case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed if blocks to switch case" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/calc/Calculator.java" />
@@ -484,8 +496,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="241">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
