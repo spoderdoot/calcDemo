@@ -26,5 +26,4 @@ public class CalcFunctions {
        }
         return result;
     }
-
 }
