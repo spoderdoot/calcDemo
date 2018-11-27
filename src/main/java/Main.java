@@ -24,7 +24,7 @@ public class Main {
 
 
 
-        if(function.equals("add")){
+       /** if(function.equals("add")){
             result = calc.add(num1,num2);
         } else if(function.equals("subtract")){
             result = calc.subtract(num1,num2);
@@ -32,14 +32,14 @@ public class Main {
             result = calc.multiply(num1,num2);
         } else if(function.equals("divide")){
                 result = calc.divide(num1, num2);
-        }
+        }**/
 
-        /**switch (function) {
+        switch (function) {
             case "add": result = calc.add(num1,num2); break;
             case "subtract": result = calc.subtract(num1,num2); break;
             case "multiply": result = calc.multiply(num1,num2); break;
             case "divide": result = calc.divide(num1,num2); break;
-        }**/
+        }
         System.out.println("The result is "+result);
     }
 }

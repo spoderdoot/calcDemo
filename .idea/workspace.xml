@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59a3bdbc-fe84-46f1-ab83-31345d962ddb" name="Default Changelist" comment="changed switch cases to if blocks">
+    <list default="true" id="59a3bdbc-fe84-46f1-ab83-31345d962ddb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+            <state relative-caret-position="340">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,9 +99,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="x" value="1920" />
+    <option name="width" value="406" />
+    <option name="height" value="574" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -177,6 +176,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +315,8 @@
       <workItem from="1543258498893" duration="1399000" />
       <workItem from="1543260371330" duration="845000" />
       <workItem from="1543268354811" duration="1456000" />
-      <workItem from="1543305553320" duration="654000" />
+      <workItem from="1543305553320" duration="1266000" />
+      <workItem from="1543321781551" duration="898000" />
     </task>
     <task id="LOCAL-00001" summary="IntelliJ Artifact Creation Fixed">
       <created>1543227629144</created>
@@ -352,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543270727638</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed switch cases to if blocks">
+      <created>1543306869234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543306869234</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -388,7 +396,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15567000" />
+    <option name="totallyTimeSpent" value="17077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,10 +408,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-8" width="816" height="586" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23280424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -539,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="340">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
